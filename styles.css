@@ -1,0 +1,22 @@
+.wrapper {
+  width: 400px;
+  height: 400px;
+  background: green;
+  position: relative;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s ease;
+}
+
+.box:hover {
+  background-color: blue;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
